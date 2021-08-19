@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(bg.jpg);
+    height: 100vh;
+    -webkit-backgroun-size :cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.desk{
+    width: 15cm;
+    height: 6cm;
+    border: 1px solid ;
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius:12px;
+    padding: 12px;
+    padding-right: 12px;
+    text-align: center;
+    margin-top: 3cm;
+    margin-left: 3cm;
+}
+.desk .nama {
+    color: white;
+    
+}
+.desk .des2 {
+    color: white;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+body {
+    background-image: url(f2.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 700px 60px;
+    background-color: rgb(190, 243, 225);
+    
+}
+
+
+nav,a {
+    text-decoration: none;
+    background-color: rgb(13, 217, 253);
+    color: black;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: 18px;
+    right: 30px;
+}
+.a2 {
+    color:rgb(6, 43, 255) ;
+    font-size: 24px;
+}
+nav {
+    position: relative;
+}
+.a1:hover{
+    color: rgb(255, 6, 6);
+    font-size: 24px;
+}
+.a2:hover{
+    color: rgb(255, 6, 6);
+    font-size: 24px;
+}
+.a3:hover{
+    color: rgb(255, 6, 6);
+    font-size: 24px;
+}
+.a4:hover{
+    color:rgb(255, 6, 6);
+    font-size: 24px;
+}
+.a5:hover{
+    color: rgb(255, 6, 6);
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 18px;
+    margin-right: 19cm;
+    margin-left: 4cm;
+    margin-top: 0cm;
+}
+h2{
+    margin-top: 1cm ;
+    margin-left: 4cm;
+}
+
+.p1 {
+    word-spacing: 6cm;
+    margin-left: 5cm;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p2 {
+    word-spacing: 6cm;
+    margin-left: 4cm;
+} */

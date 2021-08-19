@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(bg.jpg);
+    height: 100vh;
+    -webkit-backgroun-size :cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+    position: relative;
+    top: 1cm;
+    left: 3cm;
+    
+}
+
+.image {
+    width: 250px;
+    position: relative;
+    
+     
+}
+.des {
+    color: rgb(255, 255, 255);
+    position: relative; 
+    top: 4cm;
+    left: 3cm;
+    margin-right: 26cm;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.flm {
+    color: #fff;
+    position: relative;
+    margin-left: 24cm;
+    margin-right: 2cm;
+    bottom: 3cm;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+padding: 13px;
+
+
+}
+
+.h2 {
+    width: 230px;
+    position: relative;
+}
+

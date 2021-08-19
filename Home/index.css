@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(bg.jpg);
+    height: 100vh;
+    -webkit-backgroun-size :cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.nama {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.nama h1 {
+    text-align: center;
+    color: #fff;
+   
+}
+.nama h3{
+    text-align: center;
+    color: #fff;
+}
+.ig {
+   display: flex;align-items: center;
+   color: #fff;
+}
+
+.igmg {
+    
+    width: 20px;
+    float: center;
+} 
+
+.email {
+    display: flex;align-items: center;
+    color: #fff;
+
+}
+.eml{ 
+    width: 20px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1cm;
+    margin-right: 1cm;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
